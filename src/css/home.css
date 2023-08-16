@@ -1,0 +1,8 @@
+.home_content{
+    font-size: 20px;
+    text-align: center;
+    line-height: 25px;
+}
+.home_content:not(:last-child){
+    margin-bottom: 50px;
+}

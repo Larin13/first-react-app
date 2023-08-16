@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #333;
+    color: #fff;
+}
+.page_content{
+    padding: 50px 0;
+    min-height: calc(100vh - 240px);
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 25px;
+}
+a{
+    color: #fff;
+}
+h1{
+    text-align: center;
+    margin: 0 0 50px;
+    color: #00ceff;
+}
+img{
+    width: 100%;
+    max-width: 100%;
+}

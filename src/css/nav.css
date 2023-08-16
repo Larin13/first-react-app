@@ -1,0 +1,16 @@
+.nav{
+    display: flex;
+    align-items: center;
+}
+.nav_link_wrapper a{
+    text-decoration: none;
+}
+.nav_link_wrapper a:hover{
+    text-decoration: underline;
+}
+.nav_link_wrapper:not(:last-child){
+    margin-right: 25px;
+}
+.nav_link_wrapper a.active{
+    color: #00ceff;
+}
